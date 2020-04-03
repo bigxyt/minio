@@ -42,7 +42,7 @@ export const SideBar = ({ sidebarOpen, clickOutside }) => {
       >
         <div className="fes-header clearfix hidden-sm hidden-xs">
           <img src={bigxyt} alt="" style={{width: "48px", height: "48px"}} />
-          <h2>big xyt Browser</h2>
+          <h2>big xyt datastore</h2>
         </div>
         <div className="fes-list">
           {web.LoggedIn() && <BucketSearch />}
