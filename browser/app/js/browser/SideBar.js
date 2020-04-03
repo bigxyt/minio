@@ -18,8 +18,7 @@ import React from "react"
 import classNames from "classnames"
 import ClickOutHandler from "react-onclickout"
 import { connect } from "react-redux"
-
-import logo from "../../img/logo.svg"
+import bigxyt from "../../img/big-xyt.png"
 import BucketSearch from "../buckets/BucketSearch"
 import BucketList from "../buckets/BucketList"
 import Host from "./Host"
@@ -42,8 +41,8 @@ export const SideBar = ({ sidebarOpen, clickOutside }) => {
         })}
       >
         <div className="fes-header clearfix hidden-sm hidden-xs">
-          <img src={logo} alt="" />
-          <h2>MinIO Browser</h2>
+          <img src={bigxyt} alt="" style={{width: "48px", height: "48px"}} />
+          <h2>big xyt Browser</h2>
         </div>
         <div className="fes-list">
           {web.LoggedIn() && <BucketSearch />}

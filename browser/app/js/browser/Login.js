@@ -16,7 +16,7 @@
 
 import React from "react"
 import { connect } from "react-redux"
-import logo from "../../img/logo.svg"
+import bigxyt from "../../img/big-xyt-with-text.png"
 import Alert from "../alert/Alert"
 import * as actionsAlert from "../alert/actions"
 import InputGroup from "./InputGroup"
@@ -164,9 +164,12 @@ export class Login extends React.Component {
         </div>
         <div className="l-footer">
           <a className="lf-logo" href="">
-            <img src={logo} alt="" />
+            <img src={bigxyt} alt="" />
           </a>
-          <div className="lf-server">{window.location.host}</div>
+          <div style={{display: "none"}} className="lf-server">{window.location.host}</div>
+          <div>
+            <span>If you have any questions please contact our customer support at <a class="text-white support-mail" href="mailto:support@big-xyt.com">support@big-xyt.com</a> </span>
+          </div>
         </div>
       </div>
     )
