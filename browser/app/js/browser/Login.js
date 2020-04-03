@@ -163,12 +163,14 @@ export class Login extends React.Component {
           )}
         </div>
         <div className="l-footer">
-          <a className="lf-logo" href="">
-            <img src={bigxyt} alt="" />
-          </a>
           <div style={{display: "none"}} className="lf-server">{window.location.host}</div>
           <div>
-            <span>If you have any questions please contact our customer support at <a class="text-white support-mail" href="mailto:support@big-xyt.com">support@big-xyt.com</a> </span>
+            <span>This is the Client Portal of big xyt. If you have any questions please contact our customer support at <a class="text-white support-mail" href="mailto:support@big-xyt.com">support@big-xyt.com</a></span>
+          </div>
+          <div className="logo">
+            <a className="lf-logo" href="">
+              <img src={bigxyt} alt="" />
+            </a>
           </div>
         </div>
       </div>
